@@ -157,16 +157,6 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* Guide/Hint Box for Sriram */}
-              <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800 mt-auto text-left">
-                <div className="text-xs font-bold text-slate-300 mb-1 flex items-center gap-1.5 font-heading">
-                  <span className="w-1.5 h-1.5 rounded-full bg-cyan-400" />
-                  Web3Forms Setup
-                </div>
-                <p className="text-[11px] text-slate-400 leading-normal font-sans">
-                  Get your free Access Key in 10 seconds at <a href="https://web3forms.com" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">web3forms.com</a>. Paste it inside <code className="text-[10px] text-purple-400 bg-slate-950 px-1 py-0.5 rounded">VITE_WEB3FORMS_ACCESS_KEY</code> in a <code className="text-[10px] text-purple-400 bg-slate-950 px-1 py-0.5 rounded">.env.local</code> file or set it as <code className="text-[10px] text-purple-400 bg-slate-950 px-1 py-0.5 rounded">web3FormsKey</code> inside <code className="text-[10px] text-purple-400 bg-slate-950 px-1 py-0.5 rounded">src/data/portfolioData.js</code> to start receiving emails.
-                </p>
-              </div>
             </div>
           </div>
 
